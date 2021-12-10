@@ -1,24 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <div>
+      <h1>FINAL REACT EXERCISE</h1>
+ {/* 2c & 5b & BONUS 6f & 7d */}
+ <MCUShows
+        dates={releaseDates}
+        indexTwo={newIndex}
+        numTwo={newNum}
+      />
+    {/* BONUS 6d & 6f */}
+    <h1>Random MCU Character: {mcuCharacters[index]}</h1>
+      {/* BONUS 7b & 7d */}
+      <h1>Next MCU Character: {mcuCharacters[num]}</h1>  
+  </div>
   );
 }
 
